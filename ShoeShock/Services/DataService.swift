@@ -34,8 +34,11 @@ class DataService {
     
     
     private let shoesRunning:[Product] = [
-        Product(brand: "FootJoy", model: "Tour X Boa", price: 229.99, image: "Jordan Retor 4.png"),
-        Product(brand: "FootJoy", model: "Tour X", price: 199.99, image: "FJ_55404_sw.png")]
+        Product(brand: "adidas", model: "Ultraboost DNA", price: 159.99, image: "adidas Ultraboost DNA.png"),
+        Product(brand: "Under Armour", model: "Hovr Phantom SE", price: 140.00, image: "Under Armour Hovr Phantom SE.png"),
+        Product(brand: "New Balance", model: "Fuelcell Echo", price: 100.00, image: "New Balance Fuelcell Echo.png"),
+        Product(brand: "PUMA", model: "RS-X Cube", price: 99.99, image: "PUMA RS-X Cube.png")
+    ]
    
     private let shoesBasketball:[Product] = [
         Product(brand: "Jordan", model: "Retro 4", price: 229.99, image: "Jordan Retor 4.png"),
